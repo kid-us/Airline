@@ -1,0 +1,38 @@
+body {
+    font-size: small;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    background-color: #eeecec;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    /* background: rgb(153, 146, 146); */
+    background-color: #03422d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(22, 37, 51);
+}
+
+.form-control-plaintext {
+    outline: none;
+    border-bottom: 1px solid #03422d;
+}
+.input-group-text {
+    background: transparent;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.border-error {
+    border-bottom: 1px solid red;
+}

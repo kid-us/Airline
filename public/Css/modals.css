@@ -1,0 +1,142 @@
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+.trip-view {
+    height: 80px;
+    width: 150px;
+    margin: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 405px;
+    left: 35px;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    border: 0.1px solid #000;
+    font-size: small;
+}
+
+.passenger-view {
+    height: 200px;
+    width: 200px;
+    margin: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 405px;
+    left: 150px;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    border: 0.1px solid #000;
+    font-size: 15px;
+}
+/*
+.class-view {
+    height: 80px;
+    width: 150px;
+    margin: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 440px;
+    left: 300px;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    border: 0.1px solid #000;
+} */
+
+.modal-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+    margin-right: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: none;
+}
+.modal-btn:hover {
+    /* border-bottom: 3px solid #03422d; */
+    background-color: #057a53;
+    border-radius: 4px;
+}
+
+.modal-number:hover {
+    background-color: #057a53;
+}
+
+.passenger-btn {
+    background: transparent;
+    border-radius: 2px;
+    border: 0.1px solid #2f3533;
+    width: 20px;
+    font-size: medium;
+}
+
+/* small device style */
+.trip-view-sm {
+    height: 122px;
+    width: 150px;
+    margin: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    border: 0.1px solid #000;
+    font-size: small;
+}
+
+.passenger-view-sm {
+    height: 200px;
+    width: 200px;
+    margin: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    border: 0.1px solid #000;
+    font-size: 15px;
+}
+
+.class-view-sm {
+    height: 80px;
+    width: 150px;
+    margin: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    border: 0.1px solid #000;
+}
